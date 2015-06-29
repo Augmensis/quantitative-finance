@@ -9,6 +9,6 @@ public:
 	PayOffCall(const double K_){};
 	virtual ~PayOffCall(){};
 
-	virtual double operator() (const double S) const; // Payoff is max(S-K, 0)
+	virtual double operator() (const double S) const override; // Payoff is max(S-K, 0)
 };
 

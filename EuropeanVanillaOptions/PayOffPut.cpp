@@ -1,8 +1,9 @@
 #include "PayOffPut.h"
 
 
-PayOffPut::PayOffPut()
+PayOffPut::PayOffPut(const double _K)
 {
+	K = _K;
 }
 
 
