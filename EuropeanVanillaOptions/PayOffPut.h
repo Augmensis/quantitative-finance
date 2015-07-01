@@ -6,8 +6,8 @@ private:
 	double K;
 
 public:
-	PayOffPut(const double K_){};
-	virtual ~PayOffPut(){};
+	PayOffPut(const double K_);
+	virtual ~PayOffPut();
 
 	virtual double operator() (const double S) const;
 };

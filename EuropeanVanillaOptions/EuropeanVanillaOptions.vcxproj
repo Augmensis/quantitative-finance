@@ -79,10 +79,12 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Matrix.h" />
     <ClInclude Include="PayOff.h" />
     <ClInclude Include="PayOffCall.h" />
     <ClInclude Include="PayOffDoubleDigital.h" />
     <ClInclude Include="PayOffPut.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="statistics.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -90,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EuropeanVanillaOptions.cpp" />
+    <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="PayOff.cpp" />
     <ClCompile Include="PayOffCall.cpp" />
     <ClCompile Include="PayOffDoubleDigital.cpp" />
@@ -97,6 +100,9 @@
     <ClCompile Include="statistics.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="VanillaOption.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EuropeanVanillaOptions.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
