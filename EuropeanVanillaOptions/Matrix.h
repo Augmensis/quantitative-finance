@@ -2,7 +2,8 @@
 #include <vector>
 
 using namespace std;
-template <typename T = double> class Matrix
+template <typename T = double> 
+class Matrix
 {
 
 private:
@@ -20,5 +21,3 @@ public:
 	Matrix<T> get_matrix() const;
 	T& value(const int& row, const int& col);
 };
-
-//76

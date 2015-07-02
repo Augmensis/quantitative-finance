@@ -13,4 +13,3 @@ public:
 	virtual double operator() (const double S) const override;
 };
 
-// Page36
